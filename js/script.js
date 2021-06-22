@@ -1,6 +1,7 @@
 'use strict';
 
-alert("WELCOME TO MY PAGE");
+let names=prompt("What's Your Name ?")
+alert("WELCOME TO MY PAGE" +" "+ names  );
 
 let x = prompt("Do you know me (yes or no)?");
 x.toLowerCase(); console.log(x);
@@ -15,7 +16,7 @@ if (x == "yes"||x=="y") {
 }
 
 let userage = prompt("Your age more than 18 (yes or no)? ")
-switch (userage) {
+switch (userage.toLowerCase()) {
     case 'yes':
     case 'y':
         // console.log(userage);
@@ -33,6 +34,7 @@ switch (userage) {
 }
 
  let details = prompt("Interested in know more details about Ahmad (yes or no)?");
+ x.toLowerCase(); console.log(x);
  if (details=="yes"||"y"){
     // console.log(details);
      alert("Thank You")
