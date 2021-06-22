@@ -124,4 +124,4 @@ if(i==3){
  }
 }
 
-let grade=prompt("")
+// let grade=prompt("")
