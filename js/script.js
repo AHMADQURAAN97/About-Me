@@ -17,7 +17,7 @@ let fun1 = function () {
 
   if (x == "yes" || x == "y") {
     let y = prompt("Where and How ?");
-    console.log(y);
+    alert("Ooh Nice");
     grade();
   } else if (x == "no" || x == "n") {
     // console.log(x)
@@ -101,10 +101,10 @@ fun4();
 // Q5
 
 let fun5 = function () {
-  let view = prompt(
+  let trt = prompt(
     "Do you have a desire to share my webpage in your webpages? "
   );
-  switch (people.toLowerCase()) {
+  switch (trt.toLowerCase()) {
     case "yes":
     case "y":
       // console.log("people")
@@ -125,7 +125,8 @@ fun5();
 // Q6
 
 let fun6 = function () {
-  let h = prompt("What is your rate about this page?");
+  let h = prompt("What is your rate about this page?"
+    );
 
   for (let i = 0; i <= 3; i++) {
     if (h == 50) {
